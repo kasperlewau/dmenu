@@ -7,15 +7,15 @@ static const char *fonts[] = {
 	"Droid Sans Mono for Powerline:size=8"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
-static const char col_white[] = "#ffffff";
-static const char col_black[] = "#1d1f21";
-static const char col_gray[] = "#373b41";
+static const char col_fg[] = "#c0c5ce";
+static const char col_bg[] = "#2b303b";
+static const char col_sel[] = "#65737e";
 
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { col_white, col_gray },
-	[SchemeSel] = { col_white, col_black },
-	[SchemeOut] = { col_white, col_black },
+	[SchemeNorm] = { col_fg, col_bg },
+	[SchemeSel]  = { col_fg, col_sel },
+	[SchemeOut]  = { col_fg, col_sel },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 10;
