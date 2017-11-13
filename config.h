@@ -7,13 +7,10 @@ static const char *fonts[] = {
 	"Droid Sans Mono for Powerline:size=8"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
-/*static const char col_fg[] = "#c0c5ce";
-static const char col_bg[] = "#2b303b";
-static const char col_sel[] = "#65737e";*/
 
 static const char col_bg[]       		= "#1b2b34";
 static const char col_fg[]        	= "#d8dee9";
-static const char col_border[]      = "#5fb3b3";
+static const char col_border[]      = "#f99157";
 
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
