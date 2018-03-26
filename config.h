@@ -12,7 +12,8 @@ static const char *fonts[] = {
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
 
-static const char col_bg[]       	= "#282c34";
+/* static const char col_bg[]       	= "#282c34"; */
+static const char col_bg[]       	= "#222222";
 static const char col_fg[]        	= "#abb2bf";
 static const char col_border[]      = "#56b6c2";
 
